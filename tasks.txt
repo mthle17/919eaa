@@ -1,0 +1,1141 @@
+------------------------------------------------------------------------------------------------------------------------
+ex_01.py
+------------------------------------------------------------------------------------------------------------------------
+Create function that adds three numbers and returns the result.
+Call the function with numbers 3, 5 and 7.
+Print the result.
+------------------------------------------------------------------------------------------------------------------------
+ex_02.py
+------------------------------------------------------------------------------------------------------------------------
+Create program that asks a user for his name and says hello.
+
+*Example*
+Please enter your name:     John   
+Hello John!
+------------------------------------------------------------------------------------------------------------------------
+ex_03.py
+------------------------------------------------------------------------------------------------------------------------
+Create function that concatenates two text variables in a specific way.
+If text variables are "text1" and "text2", result should look like:
+    "text1 text2 text1"
+When program is run, it should ask for text variables and call the function.
+Print the result.
+
+*Example*
+Please enter first text: aaa
+Please enter second text: bbb
+aaa bbb aaa
+------------------------------------------------------------------------------------------------------------------------
+ex_04.py
+------------------------------------------------------------------------------------------------------------------------
+Create program that asks for a word.
+Output the word with first letter uppercase and the rest of letters lowercase.
+Then output the word all in uppercase, and then in lowercase.
+
+*Example*
+Please enter a word: hElLo
+Hello
+HELLO
+hello
+
+------------------------------------------------------------------------------------------------------------------------
+ex_05.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that asks for three numbers and writes out their sum.
+If any of the inputs aren't numbers, write "Not a number" and exit.
+
+*Example*
+Please enter first number: 3
+Please enter second number: 4
+Please enter third number: 5
+12
+------------------------------------------------------------------------------------------------------------------------
+ex_06.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that sums up to N numbers.
+N (number count) should be asked upfront.
+If any of the inputs aren't numbers, write "Not a number" and exit.
+
+*Example 1*
+Please enter count of numbers to sum up: 4
+Please enter number 1: 10 
+Please enter number 2: 20
+Please enter number 3: 30
+Please enter number 4: 40
+Result is 100
+
+*Example 2*
+Please enter count of numbers to sum up: 4
+Please enter number 1: 10
+Please enter number 2: X
+Not a number
+
+*Example 3*
+Please enter count of numbers to sum up: Y
+Not a number
+------------------------------------------------------------------------------------------------------------------------
+ex_07.py
+------------------------------------------------------------------------------------------------------------------------
+Create a program that writes out days of week.
+Let days of week be a list:
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+------------------------------------------------------------------------------------------------------------------------
+ex_08.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that takes a list and for each item writes out an index and 
+the item itself.
+
+*Example*
+days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+...
+0: Monday
+1: Tuesday
+2: Wednesday
+3: Thursday
+4: Friday
+5: Saturday
+6: Sunday
+------------------------------------------------------------------------------------------------------------------------
+ex_09.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that takes a text and a number.
+If text length is longer than the number given, it returns number of asterisks that is equal to number of characters.
+Otherwise it returns the original text.
+
+When program is run, user must enter the text and the number and then the function gets called.
+
+*Example*
+Please enter text: Hello world
+Please enter number: 20
+Hello world
+
+*Example*
+Please enter text: Hello world
+Please enter number: 5
+***********
+------------------------------------------------------------------------------------------------------------------------
+ex_10.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that takes a sentence and returns a random word from that sentence.
+
+*Example*
+Please enter a sentence: Quick brown fox jumps over the lazy dog
+Random word: brown
+------------------------------------------------------------------------------------------------------------------------
+ex_11.py
+------------------------------------------------------------------------------------------------------------------------
+Let days of week be a list.
+days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+Let prediction also be a list
+predictions = ["sunny", "rainy", "foggy", "cold", "freezing cold", "hot",  "scorching hot"]
+
+Create a function that writes out a statement about the weather:
+Function takes a random item from the first and the second list and uses them to create a sentence.
+    Next [day] it will be [prediction].
+
+When program is run, function gets called.
+
+*Example*
+Next Friday it will be foggy.
+------------------------------------------------------------------------------------------------------------------------
+ex_12.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that takes a sentence and returns list of all distinct words.
+Call the function and print out the result in the reverse alphabetical order.
+
+When program is run, user must enter the sentence the function gets called.
+
+*Example*
+Please enter a sentence: if it is it it is it
+['it', 'is', 'if']
+
+*Example*
+Please enter a sentence: Quick brown fox jumps over the lazy dog
+['the', 'over', 'lazy', 'jumps', 'fox', 'dog', 'brown', 'Quick']
+------------------------------------------------------------------------------------------------------------------------
+ex_13.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that finds first free classroom and returns its name.
+
+Classroom structure is a dictionary, available in global scope:
+classrooms = {
+  "Classroom1": 0,
+  "Classroom2": 0,
+  "Classroom3": 0,
+  "Classroom4": 1,
+  "Classroom5": 0,
+  "Classroom6": 1,
+  "Classroom7": 1,
+}
+Free classrooms have value 1, and occupied ones have value 0.
+
+When program is run, the function gets called.
+
+*Example*
+Classroom4
+------------------------------------------------------------------------------------------------------------------------
+ex_14.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that finds all free classrooms and returns its names.
+
+Classroom structure is a dictionary, available in global scope:
+classrooms = {
+  "Classroom1": 0,
+  "Classroom2": 0,
+  "Classroom3": 0,
+  "Classroom4": 1,
+  "Classroom5": 0,
+  "Classroom6": 1,
+  "Classroom7": 1,
+}
+Free classrooms have value 1, and occupied ones have value 0.
+
+When program is run, the function gets called.
+
+*Example*
+['Classroom4', 'Classroom6', 'Classroom7']
+------------------------------------------------------------------------------------------------------------------------
+ex_15.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that takes a sentence, converts it to lowercase and 
+returns the shortest and the longest word from the sentence. Function 
+should remove characters ',' and '.' from words.
+Use tuple for return value.
+
+When program is run, user must enter the sentence and the function gets called.
+Then the program writes out the longest and the shortest word.
+
+HINT: you can use special "key" parameter of the min/max functions:
+    e.g. min(some_word_list, key=len)
+
+*Example*
+Please enter a sentence: Quick, brown fox IS Jumping, over the Lazy Dog.
+Long one: jumping
+Short one: is
+------------------------------------------------------------------------------------------------------------------------
+ex_16.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that returns environment variable of the name given by input parameter.
+Then call the function with parameter 'UserProfile' and print out the returned value.
+------------------------------------------------------------------------------------------------------------------------
+ex_17.py
+------------------------------------------------------------------------------------------------------------------------
+Create a function that returns current working directory, username and IP address as a tuple.
+Then call the function and print out the returned values.
+
+*EXAMPLE*
+CWD: C:\Users\ozren.tk\Dokumenti\VUA\PIP\work\workshops
+Hostname: ZG-VUA-JOHN
+IP address: 192.168.100.123
+------------------------------------------------------------------------------------------------------------------------
+ex_18.py
+------------------------------------------------------------------------------------------------------------------------
+Create functions that convert from cm to inch and from inch to cm.
+Program should:
+- ask for an input value and call the first function with that value as an argument
+- print the result of conversion
+- call the second function with that result as argument
+- print the result
+
+Take into account that input number can be decimal.
+
+HINT: to convert from cm to inch, divide by 2.54
+
+*EXAMPLE*
+Length in inches: 0.39370078740157477
+Length in cm: 0.9999999999999999
+------------------------------------------------------------------------------------------------------------------------
+ex_19.py
+------------------------------------------------------------------------------------------------------------------------
+Create program that prints out current date and time values.
+
+*EXAMPLE*
+Current date: 18.01.2022
+Current time: 09:59:48
+------------------------------------------------------------------------------------------------------------------------
+ex_20.py
+------------------------------------------------------------------------------------------------------------------------
+Write a function that takes one number as an argument.
+It prints its pairity: 'even' or 'odd'
+
+When program is run, user must enter the number and the function gets called.
+
+*EXAMPLE*
+Please enter a number: 7
+odd
+
+*EXAMPLE*
+Please enter a number: 2
+even
+------------------------------------------------------------------------------------------------------------------------
+ex_21.py
+------------------------------------------------------------------------------------------------------------------------
+Write a function that takes a number as an argument.
+Function then loops from 1 to that number.
+It prints 'one', 'two' and 'three' for groups of consecutive numbers.
+E.g. for first three numbers it prints 'one', 'two' and 'three'. 
+Then, for next three numbers it prints again 'one', 'two', and 'three' etc.
+
+When program is run, user must enter the number and the function gets called.
+
+*EXAMPLE*
+Please enter a number: 7
+1 - one
+2 - two
+3 - three
+4 - one
+5 - two
+6 - three
+7 - one
+------------------------------------------------------------------------------------------------------------------------
+ex_22.py
+------------------------------------------------------------------------------------------------------------------------
+Create a program that takes the following structures as an input:
+    numbers = [3, 15, 6, 4, 11]
+    calculations = ["+", "/", "*", "-"]
+
+It takes numbers sequentially and calculates the following, 
+according to calculations list:
+    3 + 15 = 18
+    18 / 6 = 3
+    3 * 4 = 12
+    12 - 11 = 1
+
+For each operation it prints out the result.
+
+Also, if length of numbers and length of calculations aren't matching correctly
+it prints error and exits.
+
+HINT: for division you can use operator // (floor, whole-number division)
+
+*EXAMPLE*
+numbers = [3, 15, 6, 4, 11]
+calculations = ["+", "/", "*", "-"]
+18
+3
+12
+1
+
+*EXAMPLE*
+numbers = [3, 15, 6]
+calculations = ["+", "/", "*", "-"]
+Lengths don't match!
+------------------------------------------------------------------------------------------------------------------------
+ex_23.py
+------------------------------------------------------------------------------------------------------------------------
+Create program that calculates distance between two points.
+It starts with following tuples:
+    p1 = (1,3)
+    p2 = (4,7)
+
+Then it calculates the distance using Pythagorean theorem:
+    c = sqrt(a**2 + b**2)
+
+*EXAMPLE*
+Distance between (1, 3) and (4, 7) is 5.0
+------------------------------------------------------------------------------------------------------------------------
+ex_24.py
+------------------------------------------------------------------------------------------------------------------------
+Create function that takes two arguments, each of them is a list of numbers.
+list1 = [1,2,4,7,8]
+list2 = [1,3,4,5,7,9]
+Then it returns all numbers that are in both lists (aka. intersection).
+
+*EXAMPLE*
+{1, 4, 7}
+------------------------------------------------------------------------------------------------------------------------
+ex_25.py
+------------------------------------------------------------------------------------------------------------------------
+Create function that takes two arguments, each of them is a list of numbers.
+list1 = [1,2,4,7,8]
+list2 = [1,3,4,5,7,9]
+Then it returns all numbers that are in list1, but not in list 2 (aka. difference list1 - list2).
+
+*EXAMPLE*
+{2, 8}
+------------------------------------------------------------------------------------------------------------------------
+ex_26.py
+------------------------------------------------------------------------------------------------------------------------
+Create function that takes two arguments, each of them is a list of numbers.
+list1 = [1,2,4,7,8]
+list2 = [1,3,4,5,7,9]
+Then it returns all numbers that are both in list1 and list 2 (aka. union).
+
+*EXAMPLE*
+{1, 2, 3, 4, 5, 7, 8, 9}
+------------------------------------------------------------------------------------------------------------------------
+ex_27.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that takes two date values and calculates difference in days.
+When program is run, user must enter the two dates.
+After dates are parsed, difference in days is calculated and printed out.
+
+*EXAMPLE*
+Please enter a date in 'yyyy-MM-dd' form (e.g. 2022-01-25): 2022-01-10
+Please enter a date in 'yyyy-MM-dd' form (e.g. 2022-01-25): 2022-01-30
+Difference in days: 20
+------------------------------------------------------------------------------------------------------------------------
+ex_28.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that reads data from CSV file and prints it.
+File is named users.csv
+Format of the row is: id,name,username,email,company,lat,long,apiKey,role,lastUpdate
+For each row print the following info:
+
+    ***User: {name}***
+    Name: {username}
+    Email: {email}
+
+Protect the program against the error.
+If any error occurs, print message "Reading CSV failed".
+
+*EXAMPLE*
+***User: Browning Delaney***
+Name: browning94
+Email: browning_delaney@assistix.furniture
+
+***User: Tonia Weaver***
+Name: tonia89
+Email: tonia_weaver@retrack.cool
+------------------------------------------------------------------------------------------------------------------------
+ex_29.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that writes table of multiplication data to CSV file.
+Format of the row is: number1,number2,multiplied_result
+There have to be 100 rows in the CSV file.
+File must be named data.csv
+
+Protect the program against the error.
+If any error occurs, print message "Writing CSV failed".
+
+*EXAMPLE*
+1,1,1
+1,2,2
+1,3,3
+1,4,4
+1,5,5
+1,6,6
+1,7,7
+1,8,8
+1,9,9
+1,10,10
+2,1,2
+2,2,4
+2,3,6
+2,4,8
+...
+10,8,80
+10,9,90
+10,10,100
+------------------------------------------------------------------------------------------------------------------------
+ex_30.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that takes two time values and calculates difference in seconds.
+When program is run, user must enter the two time values.
+After time values are parsed, difference in seconds is calculated and printed out.
+
+*EXAMPLE*
+Please enter time in 'hh:mm:ss' form (e.g. 23:59:59): 12:34:56   
+Please enter time in 'hh:mm:ss' form (e.g. 23:59:59): 14:34:56 
+Difference in seconds: 7200.0
+------------------------------------------------------------------------------------------------------------------------
+ex_31.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that asks for a number in a loop and stores it into the list of numbers.
+Loop ends when user enters something that is not a number (e.g. 'x').
+If user enters leading spaces before the number, program should also treat the input as a number.
+After loop exits, program prints:
+(1) entire list of numbers
+(2) all unique numbers from the list
+(3) sum of all numbers
+
+*EXAMPLE*
+Please enter a number: 2
+Please enter a number: 3
+Please enter a number: 2
+Please enter a number: 3
+Please enter a number: 4
+Please enter a number: quit
+[2, 3, 2, 3, 4]
+{2, 3, 4}
+14
+------------------------------------------------------------------------------------------------------------------------
+ex_32.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to the endpoint and retrieves data from it.
+Endpoint: http://localhost:8888/apparel
+
+JSON data contains a list of items, and each item contains:
+- 'name' (product name) 
+- 'stock' (product stock)
+
+For each item display product name and product stock data in the following way:
+"Some Product Name: 5 in stock"
+
+Protect the program against the error.
+If any error occurs, print message "Execution failed".
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+
+*EXAMPLE*
+Almond Toe Court Shoes, Patent Black: 5 in stock
+Suede Shoes, Blue: 4 in stock
+...
+Bird Print Dress, Black: 10 in stock
+Mid Twist Cut-Out Dress, Pink: 5 in stock
+------------------------------------------------------------------------------------------------------------------------
+ex_33.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to the endpoint and retrieves data from it.
+Endpoint: http://localhost:8888/apparel
+
+JSON data contains a list of items, and each item contains:
+- 'stock' (product stock)
+
+Sum up total stock for all items and print out the result.
+
+Protect the program against the error.
+If any error occurs, print message "Request failed".
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+
+*EXAMPLE*
+Total stock: 74
+------------------------------------------------------------------------------------------------------------------------
+ex_34.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to the endpoint and retrieves data from it.
+Endpoint: http://localhost:8888/apparel
+
+Returned data is of JSON format.
+Write data to report.json file.
+
+Protect the program against the error.
+If any error occurs, print message "Report failed".
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+------------------------------------------------------------------------------------------------------------------------
+ex_35.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to the endpoint and retrieves data from it.
+Endpoint: http://localhost:8888/apparel
+
+Returned data is of JSON format, and each item contains following data:
+- 'id' (product internal id) 
+- 'name' (product name) 
+- 'category' (product category)
+- 'price' (product price)
+- 'stock' (product stock)
+
+Write data to report.csv file.
+
+Protect the program against the error.
+If any error occurs, print message "Report failed".
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+
+*EXAMPLE* (content of report.csv)
+1,"Almond Toe Court Shoes, Patent Black",Womens Footwear,99.0,5
+2,"Suede Shoes, Blue",Womens Footwear,42.0,4
+...
+12,"Bird Print Dress, Black",Womens Formalwear,270.0,10
+13,"Mid Twist Cut-Out Dress, Pink",Womens Formalwear,540.0,5
+------------------------------------------------------------------------------------------------------------------------
+ex_36.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to the endpoint and reads/writes data from/to it.
+Endpoint: http://localhost:8888/apparel/1
+
+Returned data is of JSON format, and contains following data:
+- 'id' (product internal id) 
+- 'name' (product name) 
+- 'category' (product category)
+- 'price' (product price)
+- 'stock' (product stock)
+
+Write two functions:
+
+- get_product(id) 
+  Function should call the endpoint using GET method with the id value appended.
+  It should return 'stock' value from JSON response.
+  Example: http://localhost:8888/apparel/1
+
+- set_product(id, stock) 
+  Function should call the endpoint using PUT method with the id value appended.
+  Also, parameter 'stock' should be sent with form data.
+  Example: http://localhost:8888/apparel/1
+
+Program runs in endless loop.
+It first asks for apparel id.
+When user enters the number, it calls get_product(id) and displays the result.
+
+It then asks for new stock value.
+When user enters the number, it calls set_product(id, stock) and displays 'DONE' if update was successful.
+Then it repeats the loop.
+
+Program should take care of the leading/trailing spaces in input, meaning that input "   1  " should also be valid.
+If anything goes wrong, programs should display 'ERROR' and exit.
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+
+*EXAMPLE*
+Please enter the product id: 1
+Stock: 5
+Please enter the new stock value: 15
+DONE
+Please enter the product id: 1
+Stock: 15
+------------------------------------------------------------------------------------------------------------------------
+ex_37.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to endpoints to read and write data.
+Endpoint 1: http://localhost:8888/apparel
+Endpoint 2: http://localhost:8888/apparel/1
+
+Returned data is of JSON format, and each item contains following data:
+- 'id' (product internal id) 
+- 'name' (product name) 
+- 'category' (product category)
+- 'price' (product price)
+- 'stock' (product stock)
+
+First endpoint returns all product data. Call it using GET method.
+Second endpoint deletes product data. Call it using DELETE method.
+For each deleted product write one line in report.csv file.
+Line must to contain all the product data.
+If program is restarted, file shouldn't be overwritten - new lines should be added to it.
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+
+*EXAMPLE* (content of report.csv)
+------------------------------------------------------------------------------------------------------------------------
+ex_38.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to the endpoint and retrieves data from it.
+Endpoint: http://localhost:8888/user
+Endpoint is protected by basic authentication (username: python, password: python)
+
+JSON data contains a list of items:
+- 'id' (in GUID form) 
+- 'name' (user first and last name)
+- 'email' (user email)
+
+For first five items display id, first name, last name and email in the following way:
+"ea267d9b-ac29-4476-b500-427f57730c55: Browning Delaney, browning_delaney@assistix.furniture"
+
+Protect the program against the error.
+If any error occurs, print message "Report failed".
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+
+*EXAMPLE*
+ea267d9b-ac29-4476-b500-427f57730c55: Browning Delaney, browning_delaney@assistix.furniture
+2aee4d5e-91ea-418d-a18d-2fcdf2b113cb: Tonia Weaver, tonia_weaver@retrack.cool
+693f7c9f-488f-4136-a5dc-836d4a19e789: Parks Vargas, parks_vargas@comtour.kw
+a2af2182-b930-4f55-a20f-b9f7a762e725: Ayala Avila, ayala_avila@inrt.surf
+dfd69811-53e1-42cf-9d38-76ca7e77d36d: Summers Roman, summers_roman@entogrok.wien
+------------------------------------------------------------------------------------------------------------------------
+ex_39.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to endpoints to read and write data.
+Endpoint 1: http://localhost:8888/user
+Endpoint 2: http://localhost:8888/user/1
+Endpoint is protected by basic authentication (username: python, password: python)
+
+Returned data is of JSON format, and each item contains following data:
+- 'id' (in GUID form) 
+- 'role' (user role in the system)
+
+First endpoint returns all user data. Call it using GET method.
+Second endpoint deletes user data. Call it using DELETE method.
+
+You have to delete first 5 users that have the 'reports' role.
+For each deleted user print the following line:
+    "Deleted user id={id of user}, name={name of user}"
+
+Protect the program against the error.
+If any error occurs, print message "Delete failed".
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+
+*EXAMPLE*
+Deleted user id=693f7c9f-488f-4136-a5dc-836d4a19e789, name=Parks Vargas
+Deleted user id=dfd69811-53e1-42cf-9d38-76ca7e77d36d, name=Summers Roman
+Deleted user id=e3a417d6-18bf-4255-98f0-97144e52fee5, name=Staci Parrish
+Deleted user id=3284473e-f060-4c00-a0f1-524b9e9f567a, name=Misty Lawrence
+Deleted user id=88a58182-2cc4-4a3f-9afe-088da6afe02a, name=Riley Wynn
+Deleted user id=2ab2ee70-e5e3-4a77-a79b-3a3195e16519, name=Marion Wall
+Deleted user id=207fb7e7-4cc8-4b2d-bb61-4dfbf677a217, name=Gail Riddle
+Deleted user id=e06d9e92-5953-4a99-9522-f539480628bc, name=Clements Buckley
+Deleted user id=9f596935-12ff-4924-a328-d8e8ffa85287, name=Marci Kelley
+------------------------------------------------------------------------------------------------------------------------
+ex_40.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program that connects to endpoint to read the data
+Endpoint: http://localhost:8888/user
+Endpoint is protected by basic authentication (username: python, password: python)
+
+Returned data is of JSON format, and each item contains following data:
+- 'name' (user name)
+- 'role' (user role in the system)
+
+Program has to do the following:
+- retrieve all users from the endpoint
+- print text "Administrators:"
+- for all users with role 'admin' and no company name print message "{user name}"
+
+Protect the program against the error.
+If any error occurs, print message "Execution failed".
+
+HINT:
+(1) Run json_server.py from terminal (python ./utils/json_server.py)
+(2) Check in browser if the endpoint is working
+
+*EXAMPLE*
+***Administrators with missing company data***
+Zamora Gibbs
+Rosa Pearson
+------------------------------------------------------------------------------------------------------------------------
+ex_41.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program for unit testing of the function.
+Function full_name() is defined in tested_code module.
+Function takes first and last name as parameters, and returns capitalized full name.
+Example: full_name('john', 'doe') should return 'John Doe'
+------------------------------------------------------------------------------------------------------------------------
+ex_42.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program for unit testing of several functions.
+Functions full_name, full_name_raw and full_name_reversed are defined in tested_code module.
+
+Rules are as follows: 
+- full_name('john', 'doe') should return 'John Doe'
+- full_name_raw('john', 'doe') should return 'john doe'
+- full_name_reversed('john', 'doe') should return 'Doe, John'
+
+If unit tests fail, instead of raising an error print message "Tests failed".
+------------------------------------------------------------------------------------------------------------------------
+ex_43.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program for unit testing of a class.
+Class Question that should be tested is defined in tested_code module.
+There is a method store_answer() in the class that takes answer_text argument.
+
+Rules for unit testing:
+- create instance of Question class
+- using method store_answer() add an answer: "float"
+- use unit test to check that there is a value "float" in answers
+------------------------------------------------------------------------------------------------------------------------
+ex_44.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program for unit testing of a class.
+Class Question that should be tested is defined in tested_code module.
+There is a method store_answer() in the class that takes answer_text argument.
+
+Rules for unit testing:
+- create instance of Question class
+- using method store_answer() add four answers: "pool", "text", "float" and "real".
+- use unit test to check if all the answers do exist ("pool", "text", "float" and "real")
+------------------------------------------------------------------------------------------------------------------------
+ex_45.py
+------------------------------------------------------------------------------------------------------------------------
+Write a program for unit testing of a class.
+Class Question that should be tested is defined in tested_code module.
+There is a method store_answer() in the class that takes answer_text argument.
+
+Rules for unit testing:
+- prepare question needed for tests in setUp() method of the unit test class
+- prepare list of answers also in setUp() method; you need four answers: "pool", "text", "float" and "real".
+- use unit test to add answers and check if all the answers do exist
+------------------------------------------------------------------------------------------------------------------------
+ex_46.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program.
+
+Show 3 consecutive values on a graph as connected points.
+Values are: 1, 3, 2
+------------------------------------------------------------------------------------------------------------------------
+ex_47.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program.
+
+Show consecutive values on a graph as connected points.
+Values are: 1, 4, 9, 16, 25, 36.
+
+Also, add the following properties to a graph:
+- line width is 5
+- title is "Squares", use font size 24
+- x-series caption is "Number", use font size 16
+- y-series caption is "Square", use font size 12
+- for all labels on axis ticks use font size 8
+------------------------------------------------------------------------------------------------------------------------
+ex_48.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program.
+
+Show several values on a graph as connected points.
+X values are: 1, 3, 4, 6, 7, 9.
+Y values are: 1, 5, 4, 9, 8, 13.
+
+Also, add the following properties to a graph:
+- line width is 2
+- title is "Sales 2021", use font size 18
+------------------------------------------------------------------------------------------------------------------------
+ex_49.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program.
+
+Show several values on a graph as points.
+X values are in range from 1 to 20.
+Y values are squares of X.
+
+Set scatter marker size to 50.
+Set scatter color to yellow.
+Set scatter edge color to red.
+Also, set x value range to be from 0 to 30, and y value range to be from 0 to 900.
+Graph must be saved as image_squares.png
+------------------------------------------------------------------------------------------------------------------------
+ex_50.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program that reads CSV file and shows values on a graph as bars.
+File is named users.csv
+Format of the row is: id,name,username,email,company,lat,long,apiKey,role,lastUpdate
+
+Program should:
+- read CSV file
+- count number of users by role
+- roles are: admin, read, read+write, reports
+- display number of users by role using bars
+
+Graph must be saved as user_roles.png
+------------------------------------------------------------------------------------------------------------------------
+ex_51.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program that works exactly as ex_50, but uses matplotlib 
+built-in histogram functionality.
+
+Save the graph as user_roles_histogram.png.
+
+NOTES:
+ - to generate a histogram, you need all the role data in one list like
+    ['admin', 'reports', 'admin', 'read+write', 'admin', 'reports', ...]
+ - you need plt.hist() instead of plt.bar(), and send just list of items
+   to the method .hist(), pyplot will calculate the rest
+ - use additional bins parameter (how many bars should be displayed?): bins=4
+ - use additional rwidth parameter (how wide should a bar appear?): rwidth=0.9
+------------------------------------------------------------------------------------------------------------------------
+ex_52.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program that visualizes matrix values.
+It displays X * Y grid.
+If value in grid is higher, the color is darker.
+If value in grid is lower, the color is lighter.
+Use grayscale for colors.
+
+Add the following points and values
+- (3, 7) => 5
+- (4, 8) => 10
+- (5, 9) => 15
+- (6, 10) => 20
+- (15, 12) => 12
+------------------------------------------------------------------------------------------------------------------------
+ex_53.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program that visualizes matrix values as a heatmap.
+Heatmap is a visualization to easily detect more dense areas.
+If there are more points in the vicinity, heatmap is darker.
+If there are less points in the vicinity, heatmap is darker.
+Use grayscale for colors.
+Note that the points are not assigned as values, but simply added to the graph.
+
+Add the following points and values
+- (3, 7)
+- (4, 8)
+- (5, 9)
+- (6, 10)
+- (15, 12)
+
+NOTE: use nearest_neighbours() function from module heatmap_utils.
+This function will calculate matrix points for feeding plt.imshow().
+You will also have to feed extent parameter that nearest_neighbours() 
+will return.
+
+Function: nearest_neighbours(xs, ys, reso, max_neighbours)
+
+Parameters:
+- xs - list of x coordinates
+- ys - list of y coordinates
+- reso - final resolution the function returns (reso * reso), e.g. 50
+- max_neighbours - just pass number of points here
+
+Returns tuple:
+- im - matrix for drawing
+- extent - extent to pass to plt.imshow()
+------------------------------------------------------------------------------------------------------------------------
+ex_54.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program that visualizes 3D graph.
+Draw some connected lines on the graph.
+------------------------------------------------------------------------------------------------------------------------
+ex_55.py
+------------------------------------------------------------------------------------------------------------------------
+Write a data visualization program that visualizes set of 3D points.
+Create points as all combinations of a 10 x 10 x 10 cube.
+That refers to the following points:
+(0, 0, 0)
+(0, 0, 1)
+(0, 0, 2)
+...
+(0, 0, 9)
+(0, 1, 0)
+(0, 1, 1)
+...
+(0, 9, 9)
+(1, 0, 0)
+(1, 0, 1)
+...
+(9, 9, 8)
+(9, 9, 9)
+------------------------------------------------------------------------------------------------------------------------
+ex_56.py
+------------------------------------------------------------------------------------------------------------------------
+Create a class House.
+Class has to be able to store value "number" inside.
+Write a method set_number() to set that value.
+Write a method get_number() to get that value.
+
+Then:
+- instance that class
+- set the house number to '5a'
+- get the house number and store into the local variable
+- print the house number like this: "House number {num}"
+------------------------------------------------------------------------------------------------------------------------
+ex_57.py
+------------------------------------------------------------------------------------------------------------------------
+Create a class ComputerMouse.
+Class must have the following fields:
+- brand (string)
+- model (string)
+- is_bluetooth (bool)
+- weight (int)
+- dpi (int)
+- number_of_buttons (int)
+- free_wheel (bool)
+
+All fields should be set in a constructor.
+Default values are:
+- is_bluetooth: False
+- free_wheel: False
+
+Create three instances:
+pc_mouse1 = ComputerMouse("Logitech", "MX Master 2S", 141, 4000, 8, True, True)
+pc_mouse2 = ComputerMouse("Razer", "DeathAdder", 96, 6400, 5, False, True)
+pc_mouse3 = ComputerMouse("Kensington", "Pro Fit", 204, 2400, 5)
+
+Print brand, model and number of DPI for each of them.
+------------------------------------------------------------------------------------------------------------------------
+ex_58.py
+------------------------------------------------------------------------------------------------------------------------
+Use a class ComputerMouse that you created in last exercise.
+For the class, override method __str__ that will return
+string representation of the class like brand, model and 
+number of DPI.
+
+When instancing, don't use separate variables, but add each of the 
+instances to the list.
+At the end, use lop to print string representations for all classes 
+in that list.
+------------------------------------------------------------------------------------------------------------------------
+ex_59.py
+------------------------------------------------------------------------------------------------------------------------
+Use last exercise as a starting point.
+Don't initialize classes manually, but initialize them from the
+following structure (list of dictionaries):
+pc_mice_dict = [
+    {
+        BrandName: "Logitech",
+        ModelName: "MX Master 2S",
+        WeightInGrams: "141",
+        MaxDpi: "4000",
+        Buttons: "8",
+        BT: "true",
+        FreeWheel: "true"
+    },
+    {
+        BrandName: "Razer",
+        ModelName: "DeathAdder",
+        WeightInGrams: "96",
+        MaxDpi: "6400",
+        Buttons: "5",
+        BT: "false",
+        FreeWheel: "true"
+    },
+    {
+        BrandName: "Kensington",
+        ModelName: "Pro Fit",
+        WeightInGrams: "204",
+        MaxDpi: "2400",
+        Buttons: "5",
+        BT: "false",
+        FreeWheel: "false"
+    }
+]
+
+At the end, in the loop write only mice that have DPI greater than 3000.
+------------------------------------------------------------------------------------------------------------------------
+ex_60.py
+------------------------------------------------------------------------------------------------------------------------
+Create a class House.
+Class has "number" member that is set by the constructor method.
+Class has a string representation that is equal to letter "H" 
+concatenated with the house number.
+
+Enable the class to be sorted by numbers (additions are not allowed, just integers).
+Use the following list to instance houses with numbers:
+numbers = [3,4,6,9,10,5,11,12,8]
+
+At the end, sort houses and write out original number list and sorted house list.
+
+HINT: use __repr__() instead of __str__(), because collections use __repr__()
+for string representation.
+
+*EXAMPLE*
+[3, 4, 6, 9, 10, 5, 11, 12, 8, 10]
+[H3, H4, H5, H6, H8, H9, H10, H10, H11, H12]
+------------------------------------------------------------------------------------------------------------------------
+ex_61.py
+------------------------------------------------------------------------------------------------------------------------
+Create two classes: Street and House.
+
+Class Street has following properties:
+- name (string)
+- city (string)
+- initialize it using constructor
+- string representation: "{name}, {city}"
+
+Class House has following properties:
+- street name (string)
+- number (int)
+- initialize it using constructor
+- string representation: "{number}"
+
+Instance 4 houses and 2 streets (two houses per street).
+Houses have to be stored in a list of houses.
+Streets have to be stored in a list of streets.
+
+Write out all streets and all houses using loops.
+
+*EXAMPLE*
+Nr. 1 (Ilica, Zagreb)
+Nr. 2 (Ilica, Zagreb)
+Nr. 10 (Vukovarska Avenija, Zagreb)
+Nr. 12 (Vukovarska Avenija, Zagreb)
+------------------------------------------------------------------------------------------------------------------------
+ex_62.py
+------------------------------------------------------------------------------------------------------------------------
+Improve the last example.
+In the class House, instead of street name store the reference to the street.
+
+*EXAMPLE*
+Nr. 1 (Ilica, Zagreb)
+Nr. 2 (Ilica, Zagreb)
+Nr. 10 (Vukovarska Avenija, Zagreb)
+Nr. 12 (Vukovarska Avenija, Zagreb)
+------------------------------------------------------------------------------------------------------------------------
+ex_63.py
+------------------------------------------------------------------------------------------------------------------------
+Improve the last example.
+In the class Street, create the list of houses that will hold 
+all the houses in the street.
+In the class street, create add_house() method that will add 
+the house to that list by calling: add_house(number).
+
+Print data by iterating through streets.
+
+*EXAMPLE*
+Nr. 1 (Ilica, Zagreb)
+Nr. 2 (Ilica, Zagreb)
+Nr. 10 (Vukovarska Avenija, Zagreb)
+Nr. 12 (Vukovarska Avenija, Zagreb)
+------------------------------------------------------------------------------------------------------------------------
+ex_64.py
+------------------------------------------------------------------------------------------------------------------------
+Create class ComputerPeripheral that can be initialized using constructor.
+Properties of the class:
+- brand
+- model
+
+Create class Mouse that inherits class ComputerPeripheral and can be initialized using constructor.
+Properties of the class:
+- dpi (int)
+- is_bluetooth (bool)
+- number_of_buttons (int)
+
+Create class Keyboard that inherits class ComputerPeripheral and can be initialized using constructor.
+Properties of the class:
+- is_wireless (bool)
+- is_full_size (bool)
+- compatibile_os (list of strings, like "Windows", "Linux", "OS X", "Android")
+
+Create one Instance of Mouse and one instance of Keyboard.
+Add both instances to list.
+Loop through the list and print brand and model of each instance.
+------------------------------------------------------------------------------------------------------------------------
+ex_65.py
+------------------------------------------------------------------------------------------------------------------------
+Create class DataManager that can import some data from CSV file and export data to JSON file.
+
+Class needs to have two methods:
+- import_data() - imports data from existing file users.csv
+                - format of the row is: id,name,username,email,company,lat,long,apiKey,role,lastUpdate
+- export_data() - exports data to a new file users.json
+
+Use that class to create users.json from users.csv.
+
+NOTE: for deserialization, use json.dump() with parameter indent=2 to prettty-print the json file
+------------------------------------------------------------------------------------------------------------------------
+ex_66.py
+------------------------------------------------------------------------------------------------------------------------
+Create three classes:
+- class DataReporter
+- class CsvReporter that inherits from DataReporter
+- class JsonReporter that inherits from DataReporter
+
+Methods of classes:
+- DataReporter
+    - report(name_part) - prints ids and names for users whose name contains name_part
+    - load() - empty
+- CsvReporter
+    - load() - loads CSV file
+- JsonReporter
+    - load() - loads JSON file
+
+Create instances of CsvReporter and JsonReporter.
+Use CsvReporter to load CSV file and show result for name part "all".
+Use JsonReporter to load JSON file and show result for the same name part.
+Both results should be the same.
+
+*EXAMPLE*
+***CSV file report***
+ca87a468-5280-4848-a993-98594c0a5b17: Randall Griffith
+2ab2ee70-e5e3-4a77-a79b-3a3195e16519: Marion Wall
+***JSON file report***
+ca87a468-5280-4848-a993-98594c0a5b17: Randall Griffith
+2ab2ee70-e5e3-4a77-a79b-3a3195e16519: Marion Wall

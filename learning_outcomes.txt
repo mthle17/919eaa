@@ -1,0 +1,36 @@
+LO1: 
+Analyse the concepts of vocabulary (lexical), syntax and semantics of a scripting language and distinguish the properties of different types of scripting language data.
+Analyse and define memory model of each data type and computational and memory complexity of functions and methods dealing with certain data types.
+
+LO2: 
+Define and apply procedural programming concepts in a scripting language.
+Apply certain algorithms with procedural programming concepts.
+
+LO3: 
+Analyse the logical and physical organization of script programming language code and use existing script programming language libraries.	
+Apply the logical and physical organization of script programming language to complex concepts (e.g. packets).
+
+LO4: !!!Missing exercises!!!
+-> !!!FOR SATURDAY!!!
+Define and apply the concepts of object-oriented programming in a scripting language and describe the above concepts with a UML class diagram.	
+Apply certain object-oriented concepts in a scripting language (e.g. iterator, generator).
+
+LO5: !!!Missing exercises!!!
+- read/write to textfile
+- read/write to binary file (encode(), decode())
+- serialize/deserialize to/from binary
+- serialize/deserialize to/from JSON
+Analyse differences in data formats and distinguish appropriate data formats with regard to the way they are used using a scripting language.	
+Apply serialization and deserialization to different data types (e.g. binary and text data).
+
+LO6: Unit tests, ex 41-45
+Describe and apply testing and quality assurance techniques for scripting language software.
+Apply and describe data setup before and after testing.
+
+LO7: Visualization, ex 46-50
+Describe and apply library capabilities for data visualization.	
+Apply libraries for data visualization using object-oriented architecture.
+
+LO8: Networking, ex 32-35, ex 38 (ex 36-37 and ex 39-40 are upgrade) 
+Analyse the possibility of using a scripting language in a network domain and define a conceptual OSI model of communication.
+Apply networking libraries to fetch remote data and map the data to certain data types of scripting programming language.
